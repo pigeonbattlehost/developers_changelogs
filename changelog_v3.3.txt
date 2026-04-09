@@ -1,0 +1,28 @@
+ZenithOS 3.3 Update Changelog
+MAINTAINER: zntsproj
+CONTRIBUTORS: pigeonbattlehost, zntsproj
+
+build/target:
+[zntsproj]: fix "font not found" bug
+
+frameworks/base/core:
+[zntsproj]: make the volumebar rounded
+
+frameworks/base/data:
+[zntsproj]: copy fonts
+
+frameworks/base/data/sounds:
+[zntsproj]: new UI sounds: WirelessChargingStarts.ogg
+
+frameworks/base/packages/systemUI:
+[zntsproj]: add custom carrier label function
+frameworks/base/policy:
+[zntsproj]: add new reboot menu
+
+packages/apps/Settings:
+[zntsproj]: add regions (dont do anything but will do in the future)
+[zntsproj]: new function: custom carrier label
+[zntsproj]: new function: do not connect to 2G Networks (still in test)
+
+vendor/zntsproj/:
+[zntsproj]: add fonts
