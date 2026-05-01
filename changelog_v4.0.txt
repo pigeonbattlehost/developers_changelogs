@@ -1,0 +1,46 @@
+ZenithOS 3.3 Update Changelog
+MAINTAINER: zntsproj
+CONTRIBUTORS: pigeonbattlehost, zntsproj
+
+----------------------------
+
+external/roboto-fonts:
+[zntsproj]: unload roboto-fonts lib in git repo
+
+frameworks/base/packages/... -> frameworks/base:
+[zntsproj]: Change the repo for zsp-4.0 branch
+
+frameworks/data:
+[zntsproj]: LowCharging UI sound remake
+
+frameworks/opt:
+[zntsproj]: provide "allow 2g" function implementation
+
+packages/apps/..:
+[zntsproj]: Update 10+ apps to zsp-4.0 branch and change their icons
+[zntsproj]: packages/apps/Settings: port "Restrict 2G" function, make it work but rename to "Allow 2G"
+[zntsproj]: packages/apps/Settings: add logcat dump function in Developer Settings
+
+packages/apps/RootlessPixelLauncher:
+[zntsproj]: new launcher
+
+packages/apps/Updater:
+[zntsproj]: new Updater design
+
+packages/apps/WallpaperPicker2:
+[zntsproj]: Add WallpaperPicker2 app for experiments
+
+packages/apps/Wallpapers:
+[zntsproj]: official ZenithOS Wallpapers app, +3 new wallpapers too!
+
+vendor/HAMMERHEAD/scripts:
+[zntsproj]: deprecated
+
+----------------------------
+
+WARNING:
+If you got update message for this version on ZenithOS 3.x branches, do not update.
+4.0 does not support Nexus 5 anymore.
+Beta builds are now only for AVD.
+
+We're sorry.
