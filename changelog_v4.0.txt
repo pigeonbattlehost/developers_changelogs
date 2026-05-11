@@ -1,40 +1,50 @@
-ZenithOS 4.0 Beta 1 Update Changelog
+ZenithOS 4.0 Beta 2 Update Changelog
 MAINTAINER: zntsproj
 CONTRIBUTORS: pigeonbattlehost, zntsproj
 
 ----------------------------
 
-external/roboto-fonts:
-[zntsproj]: unload roboto-fonts lib in git repo
+build/make:
+[zntsproj]: add locales
 
-frameworks/base/packages/... -> frameworks/base:
-[zntsproj]: Change the repo for zsp-4.0 branch
+developers/releases/3.x:
+[zntsproj]: deprecate
 
-frameworks/data:
-[zntsproj]: LowCharging UI sound remake
+developers/releases/4.x:
+[zntsproj]: deprecate
 
-frameworks/opt:
-[zntsproj]: provide "allow 2g" function implementation
+frameworks/base:
+[zntsproj]: replace drawable ic_5g_mobiledata, 4g, 3g... with ours
+[zntsproj]: replace ic_settings with ZenithOS pulsar logo
 
-packages/apps/..:
-[zntsproj]: Update 10+ apps to zsp-4.0 branch and change their icons
-[zntsproj]: packages/apps/Settings: port "Restrict 2G" function, make it work but rename to "Allow 2G"
-[zntsproj]: packages/apps/Settings: add logcat dump function in Developer Settings
+packages/apps/Settings:
+[zntsproj]: implement the function: dump the whole logcat
 
-packages/apps/RootlessPixelLauncher:
-[zntsproj]: new launcher
-
-packages/apps/Updater:
-[zntsproj]: new Updater design
-
-packages/apps/WallpaperPicker2:
-[zntsproj]: Add WallpaperPicker2 app for experiments
+packages/apps/ViaBrowser:
+[zntsproj]: new branch for zenithOS 4.0 finally
 
 packages/apps/Wallpapers:
-[zntsproj]: official ZenithOS Wallpapers app, +3 new wallpapers too!
+[zntsproj]: new function! wallpapers studio, now you can apply any color as a wallpaper, gradients impl soon
+[zntsproj]: new wallpapers: ZenithOS Pulsar, default AOSP 13 wallpapers
+[zntsproj]: make the bitmap not compressing anymore
 
-vendor/HAMMERHEAD/scripts:
-[zntsproj]: deprecated
+platform/manifest:
+[zntsproj]: add default.xml [BETA!!!]
+
+sdk:
+[zntsproj]: Initial repo commit
+
+system/apex:
+(zntsproj): (no changes listed)
+
+system/extras:
+(zntsproj): (no changes listed)
+
+tools/mkogg:
+[zntsproj]: new tool for making OGG sounds
+
+tools/PathDataViewer:
+[zntsproj]: new tool for watching XML pathdatas and exporting them to svg or png
 
 ----------------------------
 
