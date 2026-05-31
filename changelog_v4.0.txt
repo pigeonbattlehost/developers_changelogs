@@ -1,50 +1,15 @@
-ZenithOS 4.0 Beta 2 Update Changelog
+ZenithOS 4.0 Beta 3 Update Changelog
 MAINTAINER: zntsproj
-CONTRIBUTORS: pigeonbattlehost, zntsproj
+CONTRIBUTORS: zntsproj
 
-----------------------------
-
-build/make:
-[zntsproj]: add locales
-
-developers/releases/3.x:
-[zntsproj]: deprecate
-
-developers/releases/4.x:
-[zntsproj]: deprecate
-
-frameworks/base:
-[zntsproj]: replace drawable ic_5g_mobiledata, 4g, 3g... with ours
-[zntsproj]: replace ic_settings with ZenithOS pulsar logo
+frameworks/base/.../PlatlogoActivity.java:
+[zntsproj]: add new easter egg
 
 packages/apps/Settings:
-[zntsproj]: implement the function: dump the whole logcat
+[zntsproj]: add new function: STRICT mobile and wi-fi data limit.
 
-packages/apps/ViaBrowser:
-[zntsproj]: new branch for zenithOS 4.0 finally
-
-packages/apps/Wallpapers:
-[zntsproj]: new function! wallpapers studio, now you can apply any color as a wallpaper, gradients impl soon
-[zntsproj]: new wallpapers: ZenithOS Pulsar, default AOSP 13 wallpapers
-[zntsproj]: make the bitmap not compressing anymore
-
-platform/manifest:
-[zntsproj]: add default.xml [BETA!!!]
-
-sdk:
-[zntsproj]: Initial repo commit
-
-system/apex:
-(zntsproj): (no changes listed)
-
-system/extras:
-(zntsproj): (no changes listed)
-
-tools/mkogg:
-[zntsproj]: new tool for making OGG sounds
-
-tools/PathDataViewer:
-[zntsproj]: new tool for watching XML pathdatas and exporting them to svg or png
+tools/mkogg [NOW mkaudio]:
+[zntsproj]: make the mkogg tool support many audio formats
 
 ----------------------------
 
